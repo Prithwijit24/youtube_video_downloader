@@ -7,7 +7,7 @@ url = st.text_input("Enter the url of the YouTube video", placeholder = "Paste t
 
 if url:
     video_type = st.radio("Select The Type", ["only music", "only video", "music + video"], horizontal = True)
-    yt = YouTube(url)
+    yt = YouTube(url,use_oauth=True, allow_oauth_cache=True)
     st.divider()
     title = yt.title
     thumnail = yt.thumbnail_url
