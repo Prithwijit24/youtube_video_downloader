@@ -2,11 +2,11 @@ import streamlit as st
 from pytubefix import YouTube
 
 
-st.title(":green[▶️] Download Youtube video for free")
+st.title(":red[▶️] Download Youtube video for free")
 url = st.text_input("Enter the url of the YouTube video", placeholder = "Paste the url")
 
 if url:
-    video_type = st.radio("", ["only music", "only video", "music + video"], horizontal = True)
+    video_type = st.radio("Select The Type", ["only music", "only video", "music + video"], horizontal = True)
     yt = YouTube(url)
     st.divider()
     title = yt.title
