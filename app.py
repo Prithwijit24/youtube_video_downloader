@@ -1,13 +1,13 @@
 import streamlit as st
 from pytubefix import YouTube
-
+from pytubefix.cli import on_progress
 
 st.title(":red[▶️] Download Youtube video for free")
 url = st.text_input("Enter the url of the YouTube video", placeholder = "Paste the url")
 
 if url:
     video_type = st.radio("Select The Type", ["only music", "only video", "music + video"], horizontal = True)
-    yt = YouTube(url,use_oauth=True, allow_oauth_cache=True)
+    yt = YouTube(url, on_progress_callback = on_progress)
     st.divider()
     title = yt.title
     thumnail = yt.thumbnail_url
