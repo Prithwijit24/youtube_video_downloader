@@ -1,0 +1,11 @@
+version: "3.11"
+
+services:
+  yt_app:
+    image: prithwijit24/youtube_video_downloader:0.1
+    container_name: yt_container
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app/downloads
+    restart: unless-stopped
