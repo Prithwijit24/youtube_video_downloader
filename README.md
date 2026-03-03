@@ -42,7 +42,7 @@ This is a simple YouTube video downloader application built with Streamlit and `
 ### 1. ⬇️ Running a Pre-built Executable
 
 :link: You can download a pre-built executable from the link:
-[****YTDownloaderApp****](https://mega.nz/file/OnxjjAzI#RNkBV5vF0eu0Bm15Wi_HQ5NxPDLpcadQ8GO1z5n4JDk)
+[****YTDownloaderApp****](https://mega.nz/file/nyI1zSQZ#HqLVMo3MEgkLmdqOpdEWczhPbD5mmB0GZeJgcqCIy8U)
 
 Once downloaded, run the executable based on your operating system:
 
