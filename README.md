@@ -94,13 +94,13 @@ The project includes configurations for packaging the application into a standal
     ```
     or
     ```bash
-    pyinstaller --collect-all streamlit --collect-all pytubefix --copy-metadata streamlit --name "YTDownloaderApp" --onefile  -i youtube.ico run_app.py
+    pyinstaller --add-data "app.py:." --collect-all streamlit --collect-all pytubefix --copy-metadata streamlit --name "YTDownloaderApp" --onefile -i youtube.ico run_app.py
     ```
     This will generate the executable in the `dist/` directory.
 
 2.  **Run the executable:**
     ```bash
-    ./dist/YTDownloaderApp/YTDownloaderApp
+    ./dist/YTDownloaderApp
     ```
     (Note: The exact path and filename might vary slightly based on your OS and PyInstaller version.)
 
