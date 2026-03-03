@@ -1,7 +1,6 @@
 import streamlit as st
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
-
 st.title(":red[▶️] Download Youtube video for free")
 url = st.text_input("Enter the url of the YouTube video", placeholder = "Paste the url")
 
