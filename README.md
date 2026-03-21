@@ -2,6 +2,9 @@
 
 This is a simple YouTube video downloader application built with Streamlit and `pytubefix`. It allows users to download YouTube videos as audio, video, or both, with options for different qualities.
 
+If you are interested in the detailed process, coding logic or idea behind creating it, please go though the [****medium blog link****](https://prithwijit21.medium.com/how-to-download-youtube-videos-for-free-using-python-and-streamlit-eec98b7cbe6e?postPublishedType=initial)
+
+![alt text](image.png)
 ## ✨ Features
 
 -   🎵 Download YouTube videos as **audio only**.
