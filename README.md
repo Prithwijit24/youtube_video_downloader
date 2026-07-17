@@ -43,13 +43,39 @@ If you are interested in the detailed process, coding logic or idea behind creat
 ## 🚀 Running the Application
 
 
-### 1. 📦download the python package
-simple python package installation through testPyPI
+### 1. 📦 Download the Python Package
 
-```{python}
-pip install -i https://test.pypi.org/simple/ yt-video-downloader
+Install the package from TestPyPI, while still allowing dependencies to come from PyPI:
+
+```bash
+uv pip install --upgrade --force-reinstall \
+  --index-url https://test.pypi.org/simple/ \
+  --extra-index-url https://pypi.org/simple/ \
+  --index-strategy unsafe-best-match \
+  yt-video-downloader==0.1.1
+
+
+uv pip show -f yt-video-downloader
+youtube-video-downloader
 ```
 
+Start the installed Streamlit app:
+
+```bash
+youtube-video-downloader
+```
+
+Then open the local URL printed by Streamlit, usually:
+
+```text
+http://localhost:8501
+```
+
+If port `8501` is busy, pass another Streamlit port:
+
+```bash
+youtube-video-downloader --server.port=8502
+```
 
 ### 2. ⬇️ Running a Pre-built Executable
 🔗 You can download a pre-built executable from the link:
