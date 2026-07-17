@@ -42,9 +42,17 @@ If you are interested in the detailed process, coding logic or idea behind creat
 
 ## 🚀 Running the Application
 
-### 1. ⬇️ Running a Pre-built Executable
 
-:link: You can download a pre-built executable from the link:
+### 1. 📦download the python package
+simple python package installation through testPyPI
+
+```{python}
+pip install -i https://test.pypi.org/simple/ yt-video-downloader
+```
+
+
+### 2. ⬇️ Running a Pre-built Executable
+🔗 You can download a pre-built executable from the link:
 [****YTDownloaderApp****](https://mega.nz/file/nyI1zSQZ#HqLVMo3MEgkLmdqOpdEWczhPbD5mmB0GZeJgcqCIy8U)
 
 Once downloaded, run the executable based on your operating system:
@@ -53,7 +61,7 @@ Once downloaded, run the executable based on your operating system:
 -   **Linux:** Navigate to the download directory in your terminal and run `./YTDownloaderApp`.
 -   **macOS:** Navigate to the download directory in your terminal and run `./YTDownloaderApp`.
 
-### 2. Running with Streamlit (Local Development)
+### 3. 🌎 Running with Streamlit (Local Development)
 
 To run the Streamlit application directly:
 
@@ -63,7 +71,7 @@ streamlit run app.py
 
 This will open the application in your web browser.
 
-### 2. 🐳 Running with Docker
+### 4. 🐳 Running with Docker
 
 You can also run the application using Docker.
 
@@ -78,7 +86,7 @@ You can also run the application using Docker.
     ```
     The application will be accessible in your web browser at `http://localhost:8501`.
 
-### 3. Compose 🚀 Running with Docker Compose
+### 5. Compose 🚀 Running with Docker Compose
 
 If you have `docker-compose` installed, you can use the provided `docker-compose.yml` file:
 
@@ -87,7 +95,7 @@ docker-compose up --build
 ```
 The application will be accessible in your web browser at `http://localhost:8501`.
 
-### 4. 🖥️ Running the Desktop Application (Packaged Executable)
+### 6. 🖥️ Running the Desktop Application (Packaged Executable)
 
 The project includes configurations for packaging the application into a standalone executable using PyInstaller.
 

@@ -3,5 +3,6 @@
         "*.parquet": "duckdb.dataFileViewer",
         "*.csv": "duckdb.dataFileViewer",
         "*.tsv": "duckdb.dataFileViewer"
-    }
+    },
+    "taipyStudio.config.mainPythonFile": "run_app.py"
 }

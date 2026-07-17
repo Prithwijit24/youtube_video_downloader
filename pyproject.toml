@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt-video-downloader"
+version = "0.1.0"
+description = "A Streamlit app for downloading YouTube videos with pytubefix."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit==1.54.0",
+    "pytubefix==10.3.6",
+]
+
+[project.optional-dependencies]
+desktop = [
+    "pyinstaller>=6.0",
+]
+
+[project.urls]
+Repository = "https://github.com/Prithwijit24/youtube_video_downloader"
+
+[tool.setuptools]
+py-modules = ["app", "run_app"]
